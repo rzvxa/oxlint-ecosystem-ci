@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: oxc-project/oxc
-          ref: main
+          ref: 05-30-improvement_linter_react_use_new_cfg_for_detection_conditional_nodes
 
       - name: Install Rust
         uses: Boshen/setup-rust@main
