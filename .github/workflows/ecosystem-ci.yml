@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: oxc-project/oxc
-          ref: 06-14-fix_semantic_cfg_correct_unreachability_propagation_in_try-finally
+          ref: 06-14-fix_semantic_cfg_discrete_finalization_path_after_newfunction_s
 
       - name: Install Rust
         uses: Boshen/setup-rust@main
