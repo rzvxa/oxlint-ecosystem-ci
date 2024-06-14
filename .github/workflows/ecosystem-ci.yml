@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: oxc-project/oxc
-          ref: 06-14-fix_linter_edge_case_with_infinite_loops
+          ref: 06-14-fix_semantic_cfg_issue_in_unlabeled_ctx_s
 
       - name: Install Rust
         uses: Boshen/setup-rust@main
