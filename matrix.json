@@ -27,7 +27,7 @@
     "repository": "microsoft/vscode",
     "ref": "main",
     "path": "vscode",
-    "command": "./oxlint -D no-fallthrough"
+    "command": "./oxlint -D getter-return"
   },
   {
     "repository": "DefinitelyTyped/DefinitelyTyped",
