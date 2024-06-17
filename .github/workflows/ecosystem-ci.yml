@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: oxc-project/oxc
-          ref: 06-14-fix_semantic_cfg_issue_in_unlabeled_ctx_s
+          ref: 06-14-feat_linter_add_no-fallthrough_
 
       - name: Install Rust
         uses: Boshen/setup-rust@main
