@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: oxc-project/oxc
-          ref: 06-14-feat_linter_add_no-fallthrough_
+          ref: 06-17-fix_linter_promote_getter-return_to_correctenss
 
       - name: Install Rust
         uses: Boshen/setup-rust@main
